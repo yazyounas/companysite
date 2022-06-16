@@ -1,0 +1,111 @@
+html {
+    font-size: 16px;
+    font-family:  Helvetica, sans-serif;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.logo {
+    width: 13%;
+    
+}
+
+.header {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    position: stick;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-bar {
+    display: inline-flex;
+    margin-right: 0;
+}
+
+.nav {
+    text-decoration: none;
+    margin-right: 10px;
+    
+    font-size: 1.5rem;
+    color: maroon;
+}
+
+.bg-image {
+    background-image: url("../images/back-cover.AVIF");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.content {
+    text-align: center;
+    border: 1px solid burlywood;
+    background-color: burlywood;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.btn {
+    color: white;
+    background-color:maroon;
+    width: 250px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 10px;
+    margin: auto;
+    
+    
+}
+.btn-txt {
+    font-size: 1.5rem;
+    font-weight: 900;
+    
+}
+.sel-let {
+    font-size: 0.8rem;
+}
+.market {
+    font-size: 3.5rem;
+    color: maroon;
+    line-height: 70px;
+    margin-top: px;
+}
+.famous {
+    font-size: 2.25rem;
+    color: maroon;
+    
+    
+}
+.reviews {
+    font-size: 1.5rem;
+    color: maroon;
+    margin-top: 25px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
