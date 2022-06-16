@@ -1,37 +1,46 @@
-html {
-    font-size: 16px;
-    font-family:  Helvetica, sans-serif;
-}
-
 body {
     background-color: burlywood;
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
 }
 
 .logo {
     width: 13%;
-    
 }
 
 .header {
     background-color: burlywood;
     display: flex;
     justify-content: space-between;
-    position: stick;
     left: 0;
     top: 0;
     width: 100%;
     z-index: 10;
 }
 
+.nav:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkkhaki;
+    color: maroon;
+    cursor: pointer;
+
+}
+
 .nav-bar {
     display: inline-flex;
     margin-right: 0;
+
 }
 
 .nav {
     text-decoration: none;
     margin-right: 10px;
-    
+    font-weight: bold;
     font-size: 1.5rem;
     color: maroon;
 }
@@ -45,9 +54,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 0;
-    right: 0;
 }
 
 .content {
@@ -58,54 +64,112 @@ body {
     margin-bottom: 10px;
     border-radius: 20px;
 }
+
 .btn {
     color: white;
-    background-color:maroon;
+    background-color: maroon;
     width: 250px;
     text-align: center;
     padding: 0px;
     border-radius: 10px;
     margin: auto;
-    
-    
 }
+
 .btn-txt {
     font-size: 1.5rem;
     font-weight: 900;
-    
 }
+
 .sel-let {
     font-size: 0.8rem;
 }
+
 .market {
     font-size: 3.5rem;
     color: maroon;
     line-height: 70px;
-    margin-top: px;
 }
+
 .famous {
     font-size: 2.25rem;
     color: maroon;
-    
-    
 }
+
 .reviews {
     font-size: 1.5rem;
     color: maroon;
     margin-top: 25px;
-    
-    
 }
 
+.soon {
+    text-align: center;
+    font-size: 2.5rem;
+    color: maroon;
+    margin-top: 50px;
+}
+
+#available {
+    margin: auto;
+
+}
+
+.new-prop {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 
 
+}
 
+.prop {
+    border: 1px solid burlywood;
+    background-color: bisque;
+    color: white;
+    margin-right: 20px;
 
+}
 
+.address {
+    color: maroon;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
 
+.price {
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+}
 
+#our-team {
 
+    text-align: center;
+}
 
+.team {
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+    ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.teammate {
 
+    padding: 10px;
+    color: white;
+    font-size: 1.4rem;
+    flex-basis: 280px;
+    text-align: center;
+}
 
+.footer {
+
+    color: maroon;
+    font-size: 1.5rem;
+    text-align: center;
+}
