@@ -9,7 +9,7 @@ body {
     width: 13%;
 }
 
-.header {
+header {
     background-color: burlywood;
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ body {
 
 }
 
-.nav-bar {
+nav {
     display: inline-flex;
     margin-right: 0;
 
@@ -167,7 +167,7 @@ body {
     text-align: center;
 }
 
-.footer {
+.contact-info {
 
     color: maroon;
     font-size: 1.5rem;
